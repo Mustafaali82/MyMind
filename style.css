@@ -17,7 +17,7 @@ main {
 /* header Section Styling */
 
 header {
-    padding: 20px;
+    padding: 40px 50px;
 }
 
 header nav {
@@ -41,7 +41,7 @@ header nav div ul li {
     list-style-type: disc;
 }
 
-header nav div li{
+header nav div li {
     font-size: 18px;
     font-family: "Inter", sans-serif;
     color: #6E7684;
@@ -51,7 +51,7 @@ header nav div li{
     list-style-type: none;
 }
 
-header nav div button{
+header nav div button {
     padding: 12px 20px;
     border-radius: 50px;
     border: 1px;
@@ -63,11 +63,85 @@ header nav div button{
     margin-left: 30px;
 }
 
-header nav div ul li:hover{
+header nav div ul li:hover {
     color: black;
 }
 
 nav div {
     display: flex;
     align-items: center;
+}
+
+.title {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-family: "Gilda Display", serif;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #4A5465;
+    width: 520px;
+    line-height: 42px;
+    margin-top: 30px;
+}
+
+.bubble {
+    border-radius: 36px;
+    padding: 5px 20px;
+    margin: 0 4px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bubble.orange {
+    background: linear-gradient(180deg, rgba(233, 143, 83, 0.06) 0%, rgba(233, 143, 83, 0) 100%);
+    color: #E98F53;
+    border: 1px solid #E98F53;
+}
+
+.bubble.pink {
+    background: linear-gradient(180deg, rgba(228, 138, 191, 0.06) 0%, rgba(228, 138, 191, 0) 100%);
+    color: #E48ABF;
+    border: 1px solid #E48ABF;
+}
+
+.bubble.blue {
+    background: linear-gradient(180deg, rgba(153, 210, 251, 0.06) 0%, rgba(153, 210, 251, 0) 100%);
+    color: #99D2FB;
+    border: 1px solid #99D2FB;
+}
+
+.bubble.red {
+    background: linear-gradient(180deg, rgba(234, 114, 107, 0.06) 0%, rgba(234, 114, 107, 0) 100%);
+    color: #EA726B;
+    border: 1px solid #EA726B;
+}
+
+.bubble.yellow {
+    background: linear-gradient(180deg, rgba(255, 207, 39, 0.06) 0%, rgba(255, 207, 39, 0) 100%);
+    color: #FFCF27;
+    border: 1px solid #FFCF27;
+}
+
+.title video{
+ border-radius: 20px;
+ margin-top: 30px;
+ transition: 0.4s;
+}
+
+.title video:hover{
+    opacity: 0.3;
 }
