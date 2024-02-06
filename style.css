@@ -283,6 +283,10 @@ nav div {
     color: white;
 }
 
+.five .play{
+    color: white  !important;
+}
+
 /* Same Styling */
 button {
     padding: 12px 20px;
