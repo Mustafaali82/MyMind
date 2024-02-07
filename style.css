@@ -415,16 +415,16 @@ nav div {
     padding-bottom: 0;
 }
 
-.tab-heading h2{
+.tab-heading h2 {
     font-size: 40px;
-    font-family: "inter",sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: 400;
 }
 
-.tab-heading p{
+.tab-heading p {
     font-size: 20px;
     width: 500px;
-    font-family: "inter",sans-serif;
+    font-family: "inter", sans-serif;
     line-height: 30px;
     margin-top: 10px;
 }
@@ -477,7 +477,7 @@ nav div {
     transition: .4s;
 }
 
-.tab1_panel{
+.tab1_panel {
     background-image: url(Assets/feature-text-recognition-desktop.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -491,11 +491,11 @@ nav div {
     padding-top: 0;
 }
 
-.tab-panel2{
+.tab-panel2 {
     background-image: url(Assets/feature-focus-mode-desktop.webp);
 }
 
-.tab-panel3{
+.tab-panel3 {
     background-image: url(Assets/feature-saving-highlights-desktop.webp);
 }
 
@@ -503,7 +503,7 @@ nav div {
     background-image: url(Assets/feature-private-share-link-desktop.webp);
 }
 
-.tab-image img{ 
+.tab-image img {
     width: 500px;
 }
 
@@ -513,6 +513,142 @@ nav div {
 
 .first-box-display {
     display: block;
+}
+
+/* Seven Section Styling */
+
+.seven {
+    padding: 45px;
+    background-color: #FFF1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seven span{
+    font-size: 16px;
+    font-family: "inter",sans-serif;
+    color: #FF5924;
+}
+
+.seven h1{
+    font-size: 80px;
+    font-family: "Gilda Display", serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.boxtab {
+    overflow: hidden;
+    color: black;
+}
+
+
+.boxtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(33, 37, 42, 0.4);
+    transition: .4s;
+}
+
+
+.boxtab button:hover {
+    background-color: none;
+    box-shadow: none;
+}
+
+.boxtab button.active {
+    background-color: none;
+    color: #FF5924;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.boxtabcontent {
+    display: none;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+.mar-box-display{
+    display: block;
+}
+
+.image-tab-box{
+    background-image: url(Assets/for_Marketers_neue01-1.jpg);
+    text-align: center;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin-top: 40px;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.image-tab-box2{
+ background-image: url(Assets/for_designers_neue01-1.jpg);
+ color: black;
+}
+
+.image-tab-box2 span{
+    color: black !important;
+}
+
+.image-tab-box3{
+background-image: url(Assets/for_writers_neue03.jpg);
+color: black;
+}
+
+.image-tab-box3 span{
+    color: black  !important;
+}
+
+.image-tab-box4{
+background-image: url(Assets/for_researchers_neue01-1.jpg);
+color: black;
+}
+
+.image-tab-box4 span{
+    color: black !important;
+}
+
+.image-tab-box5{
+background-image: url(Assets/for_developers_neue01-1.jpg);
+}
+
+.image-tab-box6{
+background-image: url(Assets/for_everyone_neue01-1-1.jpg);
+color: beige;
+}
+
+.image-tab-box6 span{
+    color: black !important;
+}
+
+.image-tab-box span{
+    font-size: 20px;
+    font-family: "inter",sans-serif;
+    color: white;
+}
+
+.image-tab-box h1{
+    font-size: 80px;
+    font-family: "Gilda Display", serif;
+    margin-top: 20px;
+    line-height: 90px;
 }
 
 /* Same Styling */
