@@ -290,18 +290,20 @@ nav div {
 /* Six Section Styling */
 
 .six {
-    background: linear-gradient(180deg, #FF5924 0%, #FFC0B4 20.88%,  #fffcfb 85.07%);
+    background: linear-gradient(180deg, #FF5924 0%, #FFC0B4 20.88%, #fbf4f1 85.07%);
     padding: 30px;
 }
 
 .six-box {
     background-color: white;
+    padding: 0 45px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .six-box span {
@@ -336,7 +338,7 @@ nav div {
 }
 
 .grid-box-child:hover {
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
 
 .grid-box-child h2 {
@@ -375,25 +377,142 @@ nav div {
     width: 480px;
 }
 
-.grid-box-two{
+.grid-box-two {
     display: grid;
     grid-template-columns: 700px 520px;
 }
 
-.bg-color-F3F0E7{
+.bg-color-F3F0E7 {
     background-color: #F3F0E7;
 }
 
-.bg-color-DBE6FB{
+.bg-color-DBE6FB {
     background-color: #DBE6FB;
 }
 
-.bg-color-F3F0E7 img{
+.bg-color-F3F0E7 img {
     width: 100%;
 }
 
-.bg-color-DBE6FB p{
+.bg-color-DBE6FB p {
     width: 100%;
+}
+
+
+.tab-main {
+    width: 100%;
+    background-color: #FDFCFF;
+    margin: 45px;
+    border: 1px solid rgba(228, 232, 236, 0.5) !important;
+    box-shadow: 0px 4px 7px -4px rgba(140, 142, 151, 0.32) !important;
+    border-radius: 10px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    padding: 60px;
+    padding-bottom: 0;
+}
+
+.tab-heading h2{
+    font-size: 40px;
+    font-family: "inter",sans-serif;
+    font-weight: 400;
+}
+
+.tab-heading p{
+    font-size: 20px;
+    width: 500px;
+    font-family: "inter",sans-serif;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 24px;
+    font-family: "inter", sans-serif;
+    color: #AFB5C1;
+    font-weight: 400;
+    margin-left: 0;
+    padding: 0;
+    padding-right: 65px;
+    margin-right: 31px;
+    border-top: 2px solid #AFB5C1;
+    border-radius: 0;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #dddddd00;
+    box-shadow: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: none;
+    border-top: 2px solid #FF5924;
+    color: black;
+    transition: 0.4s;
+}
+
+
+.gap-close {
+    padding-right: 118px !important;
+    margin-right: 0 !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    transition: .4s;
+}
+
+.tab1_panel{
+    background-image: url(Assets/feature-text-recognition-desktop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 700px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    padding: 60px;
+    padding-top: 0;
+}
+
+.tab-panel2{
+    background-image: url(Assets/feature-focus-mode-desktop.webp);
+}
+
+.tab-panel3{
+    background-image: url(Assets/feature-saving-highlights-desktop.webp);
+}
+
+.tab-panel4 {
+    background-image: url(Assets/feature-private-share-link-desktop.webp);
+}
+
+.tab-image img{ 
+    width: 500px;
+}
+
+#first_display {
+    display: block !important;
+}
+
+.first-box-display {
+    display: block;
 }
 
 /* Same Styling */
