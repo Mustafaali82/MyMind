@@ -290,8 +290,9 @@ nav div {
 /* Six Section Styling */
 
 .six {
-    background: linear-gradient(180deg, #FF5924 0%, #FFC0B4 20.88%, #fbf4f1 85.07%);
+    background: linear-gradient(180deg, #FF5924 0%, #FFC0B4 20.88%, #FFF1F1 85.07%);
     padding: 30px;
+    padding-bottom: 100px;
 }
 
 .six-box {
@@ -631,7 +632,7 @@ background-image: url(Assets/for_developers_neue01-1.jpg);
 
 .image-tab-box6{
 background-image: url(Assets/for_everyone_neue01-1-1.jpg);
-color: beige;
+color: black;
 }
 
 .image-tab-box6 span{
@@ -649,6 +650,42 @@ color: beige;
     font-family: "Gilda Display", serif;
     margin-top: 20px;
     line-height: 90px;
+}
+
+/* Eight Section STyling */
+
+.eight{
+    background-color: #FFF1F1;
+    padding: 45px;
+    padding-top: 50px;
+    background-image: url(Assets/Closing_statement_bg_new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: top;
+}
+
+.eight img{
+    position: relative;
+    top: -75px;
+}
+
+.eight p {
+    font-size: 50px;
+    font-family: "Gilda Display", serif;
+    line-height: 60px;
+    color: black;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 900px;
+    text-align: center;
+}
+
+.eight button{
+    margin-top: 30px;
 }
 
 /* Same Styling */
