@@ -292,7 +292,6 @@ nav div {
 .six {
     background: linear-gradient(180deg, #FF5924 0%, #FFC0B4 20.88%, #FFF1F1 85.07%);
     padding: 30px;
-    padding-bottom: 100px;
 }
 
 .six-box {
@@ -527,13 +526,13 @@ nav div {
     flex-direction: column;
 }
 
-.seven span{
+.seven span {
     font-size: 16px;
-    font-family: "inter",sans-serif;
+    font-family: "inter", sans-serif;
     color: #FF5924;
 }
 
-.seven h1{
+.seven h1 {
     font-size: 80px;
     font-family: "Gilda Display", serif;
     margin-top: 20px;
@@ -581,11 +580,11 @@ nav div {
     width: 100%;
 }
 
-.mar-box-display{
+.mar-box-display {
     display: block;
 }
 
-.image-tab-box{
+.image-tab-box {
     background-image: url(Assets/for_Marketers_neue01-1.jpg);
     text-align: center;
     height: 700px;
@@ -599,53 +598,53 @@ nav div {
     color: white;
 }
 
-.image-tab-box2{
- background-image: url(Assets/for_designers_neue01-1.jpg);
- color: black;
+.image-tab-box2 {
+    background-image: url(Assets/for_designers_neue01-1.jpg);
+    color: black;
 }
 
-.image-tab-box2 span{
+.image-tab-box2 span {
     color: black !important;
 }
 
-.image-tab-box3{
-background-image: url(Assets/for_writers_neue03.jpg);
-color: black;
+.image-tab-box3 {
+    background-image: url(Assets/for_writers_neue03.jpg);
+    color: black;
 }
 
-.image-tab-box3 span{
-    color: black  !important;
-}
-
-.image-tab-box4{
-background-image: url(Assets/for_researchers_neue01-1.jpg);
-color: black;
-}
-
-.image-tab-box4 span{
+.image-tab-box3 span {
     color: black !important;
 }
 
-.image-tab-box5{
-background-image: url(Assets/for_developers_neue01-1.jpg);
+.image-tab-box4 {
+    background-image: url(Assets/for_researchers_neue01-1.jpg);
+    color: black;
 }
 
-.image-tab-box6{
-background-image: url(Assets/for_everyone_neue01-1-1.jpg);
-color: black;
-}
-
-.image-tab-box6 span{
+.image-tab-box4 span {
     color: black !important;
 }
 
-.image-tab-box span{
+.image-tab-box5 {
+    background-image: url(Assets/for_developers_neue01-1.jpg);
+}
+
+.image-tab-box6 {
+    background-image: url(Assets/for_everyone_neue01-1-1.jpg);
+    color: black;
+}
+
+.image-tab-box6 span {
+    color: black !important;
+}
+
+.image-tab-box span {
     font-size: 20px;
-    font-family: "inter",sans-serif;
+    font-family: "inter", sans-serif;
     color: white;
 }
 
-.image-tab-box h1{
+.image-tab-box h1 {
     font-size: 80px;
     font-family: "Gilda Display", serif;
     margin-top: 20px;
@@ -654,7 +653,7 @@ color: black;
 
 /* Eight Section STyling */
 
-.eight{
+.eight {
     background-color: #FFF1F1;
     padding: 45px;
     padding-top: 50px;
@@ -665,12 +664,11 @@ color: black;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-position: top;
+    background-position-y: 81px;
 }
 
-.eight img{
+.eight img {
     position: relative;
-    top: -75px;
 }
 
 .eight p {
@@ -679,13 +677,90 @@ color: black;
     line-height: 60px;
     color: black;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 60px;
     width: 900px;
     text-align: center;
 }
 
-.eight button{
+.eight button {
+    margin: 0;
     margin-top: 30px;
+}
+
+/* Nine Section Styling */
+
+.nine {
+    background-image: url(Assets/ninebg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 45px;
+    padding-top: 0;
+    background-size: cover;
+}
+
+.nine-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nine-img-box img {
+    width: 600px;
+}
+
+.nine-img-box2 {
+    display: flex;
+}
+
+.nine-img-box1 {
+    position: relative;
+    top: 80px;
+    left: -40px;
+}
+
+.mymind-review-003 {
+    position: relative;
+    top: 30px;
+}
+
+.nine-img-box h1{
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: "Gilda Display", serif;
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+
+.mymind-review-004{
+    position: relative;
+    left: 100px;
+}
+
+.mymind-review-005{
+    position: relative;
+    top: -60px;
+    left: -100px;
+}
+
+.nine-img-box span img{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.nine-img-box span{
+    font-size: 16px;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.nine-img-box span:hover{
+    color: #FF5924;
 }
 
 /* Same Styling */
