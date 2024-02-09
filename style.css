@@ -807,17 +807,120 @@ nav div {
 
 /* Footer Styling */
 footer {
-
     background-image: url(Assets/footerbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 45px;
     background-position: top;
+    padding-bottom: 0;
 }
 
 .footer-box {
     background-color: white;
-    padding: 45px;
+    padding: 60px 50px;
+    
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.footer-box-child {
+    width: 650px;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 38px;
+    border-radius: 12px;
+}
+
+.footer-box-child h1 {
+    font-size: 48px;
+    font-family: 'Gilda Display';
+}
+
+.footer-box-child span {
+    font-size: 20px;
+    font-family: 'Inter';
+    color: #748297;
+    margin-top: 8px;
+}
+
+.f2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f2-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.footer-link-box {
+    display: flex;
+    gap: 35px;
+}
+
+.f2-box h4 {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #343552;
+    padding: 12px;
+}
+
+.f2-box span {
+    padding: 6px 12px;
+    font-size: 20px;
+    font-family: 'Inter';
+    color: #717286cc;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.f2-box span:hover {
+    color: rgb(187, 187, 187);
+}
+
+.f2-box h3 {
+    font-size: 25px;
+    font-family: "inter";
+    font-weight: 400;
+    margin-top: 12px;
+    color: #343552;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.f2-box h3:hover {
+    color: rgb(187, 187, 187);
+}
+
+.f3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-top: 1px solid #D5DAE0;
+    margin-top: 50px;
+}
+
+.f3box1{
+    display: flex;
+    gap: 40px;
+}
+
+.f3box span{
+    font-size: 17px;
+    color: #748297;
+    font-family: 'Inter';
+    cursor: pointer;
 }
 
 /* Same Styling */
