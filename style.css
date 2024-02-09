@@ -724,7 +724,7 @@ nav div {
     top: 30px;
 }
 
-.nine-img-box h1{
+.nine-img-box h1 {
     font-size: 60px;
     margin-top: 30px;
     font-family: "Gilda Display", serif;
@@ -733,39 +733,39 @@ nav div {
     text-align: center;
 }
 
-.mymind-review-004{
+.mymind-review-004 {
     position: relative;
     left: 100px;
 }
 
-.mymind-review-005{
+.mymind-review-005 {
     position: relative;
     top: -60px;
     left: -100px;
 }
 
-.nine-img-box span img{
+.nine-img-box span img {
     width: 20px;
     vertical-align: middle;
     margin-right: 15px;
 }
 
-.nine-img-box span{
+.nine-img-box span {
     font-size: 16px;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     transition: .4s;
     cursor: pointer;
 }
 
-.nine-img-box span:hover{
+.nine-img-box span:hover {
     color: #FF5924;
 }
 
 /* Ten Section Styling */
 
-.ten{
+.ten {
     padding: 50px 60px;
     display: flex;
     justify-content: center;
@@ -775,34 +775,49 @@ nav div {
     padding-top: 80px;
 }
 
-.ten-box{
+.ten-box {
     display: flex;
     flex-direction: column;
 }
 
-.ten-box span{
-    font-family: "Inter",sans-serif;
+.ten-box span {
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     margin-top: 20px;
     font-weight: 400;
     color: #3a475a;
 }
 
-.ten-box h2{
+.ten-box h2 {
     font-size: 24px;
     margin-top: 10px;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
 }
 
-.ten-box img{
+.ten-box img {
     width: 400px;
     border-radius: 10px;
     transition: .5s;
 }
 
-.ten-box img:hover{
+.ten-box img:hover {
     transform: scale(.9);
+}
+
+/* Footer Styling */
+footer {
+
+    background-image: url(Assets/footerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px;
+    background-position: top;
+}
+
+.footer-box {
+    background-color: white;
+    padding: 45px;
 }
 
 /* Same Styling */
